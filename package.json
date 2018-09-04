@@ -1,0 +1,24 @@
+{
+  "name": "democi",
+  "version": "1.0.0",
+  "description": "Demo de integracion continua con jenkins",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava tests/* --serial --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelo1180/democi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcelo1180/democi/issues"
+  },
+  "homepage": "https://github.com/Marcelo1180/democi#readme",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "express": "^4.16.3"
+  }
+}
