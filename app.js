@@ -5,6 +5,10 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
+app.get('/demo', function (req, res) {
+  res.send('Demo!');
+});
+
 app.listen(3335, function () {
   console.log('Example app listening on port 3335!');
 });
